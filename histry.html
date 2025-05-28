@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Physics Topics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Histry</h1>
+  <div class="button-container">
+    <button onclick="goToQuiz('pragaitihasik_kal')">प्रागैतिहासिक काल</button>
+    <button onclick="goToQuiz('sindhu_sabhyata')">सिंधु सभ्यता</button>
+    <button onclick="goToQuiz('vaidik_sabhyata_1')">वैदिक सभ्यता 1</button>
+    <button onclick="goToQuiz('vaidik_sabhyata_2')">वैदिक सभ्यता 2</button>
+    <button onclick="goToQuiz('jain_dharm_1')">जैन धर्म  1</button>
+    <button onclick="goToQuiz('baudhd_dharm_1')">बौद्ध धर्म 1</button>
+    <button onclick="goToQuiz('baudhd_dharm_2')">बौद्ध धर्म 2</button>
+    <button onclick="goToQuiz('vaishnav_dharm')">वैष्णव धर्म</button>
+    <button onclick="goToQuiz('esalam_dharm_1')">इस्लाम धर्म 1</button>
+    <button onclick="goToQuiz('shaiv_dharm_1')">शैव धर्म 1</button>
+    <button onclick="goToQuiz('rigved_1')">ऋग्वेद 1</button>
+    <button onclick="goToQuiz('yajurved_1')">यजुर्वेद 1</button>
+    <button onclick="goToQuiz('samved_1')">सामवेद 1</button>
+    <button onclick="goToQuiz('atharvaved_1')">अथर्ववेद 1</button>
+    <button onclick="goToQuiz('esae_dharm_1')">ईसाई धर्म 1</button>
+    
+   
+  </div>
+  <script>
+    function goToQuiz(topic) {
+      window.location.href = `${topic}.html`;
+    }
+  </script>
+</body>
+</html>
